@@ -11,7 +11,8 @@ session_start()
     <p>사용자 정보조회</p>
     <form method="GET" action="search_test.php">
       <input type="text" name="keyword" placeholder="검색어를 입력하세요" autocomplete="off" size="100">
-      <input type="submit" value="검색">
+      <input type="submit" value="검색"><br><br>
+      <input type="button" value="로그아웃" onclick="location.href='logout_test.php'">
     </form>
 <?php
 
